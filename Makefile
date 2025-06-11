@@ -2,8 +2,6 @@
 
 .PHONY: all test clean deploy fund help install snapshot format anvil zktest deployMood
 
-DEFAULT_ANVIL_KEY := 0x8b3a350cf5c34c9194ca85829a2df0ec3153be0318b5e2d3348e872092edffba
-DEFAULT_ZKSYNC_LOCAL_KEY := 0x7726827caac94a7f9e1b160f7ea819f172f7b6f9d2a97f992c38edeab82d4110
 
 all: clean remove install update build
 
